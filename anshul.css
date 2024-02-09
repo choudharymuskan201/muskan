@@ -1,0 +1,79 @@
+.div {
+  border-bottom: 2px solid red ;
+  transition: 2s;
+  width: 0%;
+}
+
+div:hover {
+  width: 70px;
+}
+.muskan {
+  background-color: gray;
+}
+
+.home {
+  border-bottom: 2px solid green;
+  transition-duration: 2s;
+  width: 0%;
+  color: white;
+}
+.home:hover {
+  width: 5%;
+}
+
+.about {
+  border-bottom: 2px solid green;
+  transition-duration: 2s;
+  width: 0%;
+  color: white;
+  
+
+}
+
+.about:hover {
+  width: 5%;
+}
+
+.blog {
+  border-bottom: 2px solid green;
+  transition-duration: 2s;
+  width: 0%;
+  color: white;
+
+}
+
+.blog:hover {
+  width: 10%;
+}
+
+.download {
+  border-bottom: 2px solid green;
+  transition-duration: 2s;
+  width: 0%;
+  color: white;
+  
+}
+
+.download:hover {
+  width: 20%;
+} 
+.box {
+  color: rgb(30, 198, 44);
+  cursor: pointer;
+  padding: 15px 12px;
+  width: 60px;
+  border-bottom:2px solid red ;
+}
+.mahi {
+  background: #000;
+  padding: 15px 12px;
+  width: 100px;
+  display: none;
+  
+
+}
+.box:hover .mahi {
+  display: block;
+  font-size: 30PX;
+
+}
